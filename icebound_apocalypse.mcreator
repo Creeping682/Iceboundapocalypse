@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "Worldstart",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldstart",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zombieforest",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombieforest"
+    },
+    {
+      "name": "Solitaryplains",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solitaryplains"
+    },
+    {
+      "name": "Frozenlands",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozenlands",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "Icezombie",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icezombie"
+    },
+    {
+      "name": "Hypothermiatick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hypothermiatick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debugcommand",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugcommand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debug",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug"
+    },
+    {
+      "name": "Frozenflesh",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozenflesh"
+    },
+    {
+      "name": "Frozenfleshslowplayer",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozenfleshslowplayer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gravelight",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelight"
+    },
+    {
+      "name": "GravelightEntityIsHurt",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelight_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Anointedzomb",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anointedzomb"
+    },
+    {
+      "name": "Luminouschunk",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminouschunk"
+    },
+    {
+      "name": "LuminousIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_ingot"
+    },
+    {
+      "name": "Luminousingotrecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminousingotrecipe"
+    },
+    {
+      "name": "Playerteleport",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerteleport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThawedMeat",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thawed_meat"
+    },
+    {
+      "name": "Frozenfleshcook",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozenfleshcook"
+    },
+    {
+      "name": "SeekerEntityShakingCondition",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeker_entity_shaking_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Seeker",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeker"
+    },
+    {
+      "name": "GravelightNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelight_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seekerspawncond",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seekerspawncond",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "worldexists",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Warmth",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "50.0"
+    },
+    {
+      "name": "Gamestage",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "viewershriek",
+      "files": [
+        "viewershrieking_trim"
+      ],
+      "category": "hostile",
+      "subtitle": "Zombie screams"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.viewerscream": "Ice ghoul dies",
+      "item.icebound_apocalypse.thawed_meat": "Thawed Meat",
+      "entity.icebound_apocalypse.anointedzomb": "Anointed ghoul",
+      "biome.icebound_apocalypse.zombieforest": "Undead forest",
+      "item.icebound_apocalypse.frozenflesh": "Frozen flesh",
+      "entity.icebound_apocalypse.gravelight": "Gravelight",
+      "entity.icebound_apocalypse.icezombie": "Frozen ghoul",
+      "item.icebound_apocalypse.icezombie_spawn_egg": "Frozen ghoul Spawn Egg",
+      "subtitles.viewershriek": "Zombie screams",
+      "entity.icebound_apocalypse.seeker": "Seeker",
+      "item.icebound_apocalypse.luminous_ingot": "Luminous Ingot",
+      "item.icebound_apocalypse.seeker_spawn_egg": "Seeker Spawn Egg",
+      "item.icebound_apocalypse.luminouschunk": "Luminous chunk",
+      "biome.icebound_apocalypse.solitaryplains": "Solitary plains",
+      "item.icebound_apocalypse.frozenlands": "Frozenlands Portal Igniter",
+      "item.icebound_apocalypse.anointedzomb_spawn_egg": "Anointed ghoul Spawn Egg",
+      "item.icebound_apocalypse.gravelight_spawn_egg": "Gravelight Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "icebound_apocalypse",
+    "modName": "Icebound apocalypse",
+    "version": "1.0.0",
+    "author": "Jacob, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.iceboundapocalypse",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
